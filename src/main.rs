@@ -7,7 +7,7 @@ const SIZE: usize = 5;
 fn main() {
     let mut nums = [0, 1, 2, 3, 4];
 
-	let child_path = Path::new("/mnt/c/COS3105/rustOnFork/src");
+	let child_path = Path::new("/mnt/c/COS3105/rustOnFork/src/child");
 	let mut child = Command::new(child_path)
 		.spawn()
 		.expect("Failed to execute child process");
